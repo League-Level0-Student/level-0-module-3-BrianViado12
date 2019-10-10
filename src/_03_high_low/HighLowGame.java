@@ -11,11 +11,13 @@ public class HighLowGame {
 
 	public static void main(String[] args) {
 		// 3. Change this line to give you a random number between 1 - 100. 
-		for (int i = 0; i < 10; i++) {
 		int random = new Random().nextInt(101);
+		for (int i = 0; i < 10; i++) {
+		
 		
 		// 2. Print out the random variable above
 		System.out.println(random);
+		
 		// 11. Repeat steps 1 to 10 ten times
 		
 		
@@ -26,11 +28,12 @@ public class HighLowGame {
 			// 5. if the guess is correct
 			if (number==(random)) {
 				JOptionPane.showMessageDialog(null, "That's correct!");
+				JOptionPane.showMessageDialog(null, "You Win!");
 				System.exit(0);
 			}else if(number>random) {
 				JOptionPane.showMessageDialog(null, "Too high, try again");
 			}else if (number<random) {
-				JOptionPane.showInternalMessageDialog(null, "Too low, try again");
+				JOptionPane.showMessageDialog(null, "Too low, try again");
 			}
 				// 6. Win
 				// 12. Use "System.exit(0);" to quit the game if the user guessed the right answer.
@@ -41,9 +44,9 @@ public class HighLowGame {
 
 		// 13. Tell them they lose
 		
-	}
+	
 	}
 
 }
-
+}
 
