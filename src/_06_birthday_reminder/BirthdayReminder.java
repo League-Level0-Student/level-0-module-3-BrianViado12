@@ -11,12 +11,13 @@ public class BirthdayReminder {
 	public static void main(String[] args) {
 	
 		// 1. correct the birthdays for your family below
-		String momsBirthday = "January 24th";
-		String dadsBirthday = "June 9th";
-		String myBirthday = "April 16th";
+		String momsBirthday = "June 12th";
+		String dadsBirthday = "March 28th";
+		String myBirthday = "April 10th";
 
 		// 2. Find out which birthday the user wants and and store their response in a variable
-	
+		String answer = JOptionPane.showInputDialog("Do you want to find out your mom, dad's or your birthday?");
+		
 		// 3. Print out what the user typed
 		
 		// 4. if user asked for "mom"
