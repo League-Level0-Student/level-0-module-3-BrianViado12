@@ -3,6 +3,7 @@
 
 package _12_fizz_buzz;
 
+import javax.swing.JOptionPane;
 
 /**
 * Fizz Buzz
@@ -26,6 +27,11 @@ package _12_fizz_buzz;
 **/
 
 public class FizzBuzz {
-
+	public static void main(String[] args) {
+		JOptionPane.showMessageDialog(null, "Let's play FizzBuzz!");
+		if () {
+			
+		}
+	}
 }
 
