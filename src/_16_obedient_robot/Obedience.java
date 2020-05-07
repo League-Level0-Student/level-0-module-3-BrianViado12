@@ -47,13 +47,13 @@ public class Obedience {
 		}
 		obey.penDown();
 		obey.setSpeed(100);
-		obey.move(90);
+		obey.move(180);
 		obey.turn(90);
-		obey.move(90);
+		obey.move(180);
 		obey.turn(90);
-		obey.move(90);
+		obey.move(180);
 		obey.turn(90);
-		obey.move(90);
+		obey.move(180);
 	}
 	private static void drawTriangle() {
 		// TODO Auto-generated method stub
@@ -72,7 +72,7 @@ public class Obedience {
 			obey.penDown();
 			obey.setSpeed(1000);
 			obey.turn(1);
-			obey.move(1);
+			obey.move(2);
 		}
 	}
 }
